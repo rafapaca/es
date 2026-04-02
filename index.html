@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RPRP 🌺 El Salvador Apr 3–13</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@300;400;500;600;700&family=Satisfy&display=swap" rel="stylesheet">
+<style>
+:root{--coral:#E8927C;--cl:#F4BFB3;--sage:#8BAD8B;--sl:#C5DEC5;--cream:#FFF8F0;--sand:#F5E6D3;--ocean:#6BA3BE;--ol:#B5D8E8;--volcano:#C0694A;--dark:#3D3432;--gold:#D4A853;--pink:#F2C4CE;--lav:#D4C5E2}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Quicksand',sans-serif;background:var(--cream);color:var(--dark);overflow-x:hidden}
+.hero{min-height:100vh;background:linear-gradient(135deg,var(--coral) 0%,var(--volcano) 35%,var(--ocean) 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 600px 300px at 20% 80%,rgba(255,255,255,.15),transparent),radial-gradient(ellipse 400px 400px at 80% 20%,rgba(255,255,255,.1),transparent)}
+.hd{position:absolute;font-size:4rem;opacity:.12;animation:fl 6s ease-in-out infinite}
+.hd:nth-child(1){top:8%;left:6%}.hd:nth-child(2){top:22%;right:10%;animation-delay:1.2s;font-size:3rem}.hd:nth-child(3){bottom:18%;left:12%;animation-delay:2.5s;font-size:3.5rem}.hd:nth-child(4){bottom:8%;right:6%;animation-delay:.8s;font-size:5rem}.hd:nth-child(5){top:55%;left:4%;animation-delay:3s;font-size:2.5rem}.hd:nth-child(6){top:15%;left:45%;animation-delay:1.8s;font-size:2.8rem}
+@keyframes fl{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-20px) rotate(5deg)}}
+.logo{font-family:'Playfair Display',serif;font-size:clamp(1.1rem,3vw,1.5rem);color:rgba(255,255,255,.55);letter-spacing:8px;position:relative;z-index:1;margin-bottom:1.2rem;text-transform:uppercase}
+.logo .h{color:var(--pink);margin:0 4px}
+.hero h1{font-family:'Satisfy',cursive;font-size:clamp(2.8rem,8vw,5.5rem);color:#fff;position:relative;z-index:1;text-shadow:2px 4px 8px rgba(0,0,0,.2);margin-bottom:.3rem}
+.hero-sub{font-size:clamp(.95rem,2.5vw,1.3rem);color:rgba(255,255,255,.9);font-weight:300;letter-spacing:3px;text-transform:uppercase;position:relative;z-index:1;margin-bottom:.8rem}
+.hero-dates{font-family:'Playfair Display',serif;font-style:italic;font-size:clamp(.95rem,2vw,1.2rem);color:rgba(255,255,255,.8);position:relative;z-index:1}
+.hero-names{font-family:'Satisfy',cursive;font-size:clamp(1.2rem,3vw,1.8rem);color:rgba(255,255,255,.7);position:relative;z-index:1;margin-top:1rem}
+.scroll-hint{position:absolute;bottom:2rem;z-index:1;animation:bn 2s infinite;color:rgba(255,255,255,.6);font-size:1.4rem}
+@keyframes bn{0%,100%{transform:translateY(0)}50%{transform:translateY(10px)}}
+.qi{display:flex;flex-wrap:wrap;justify-content:center;gap:2rem;padding:2rem 1.5rem;background:#fff;border-bottom:1px solid rgba(0,0,0,.05)}
+.qi div{text-align:center}.qi span{display:block;font-size:1.4rem;margin-bottom:.15rem}.qi strong{font-size:.75rem;text-transform:uppercase;letter-spacing:1px}.qi small{display:block;font-size:.72rem;color:#999}
+.ov{background:#fff;padding:2.5rem 1.5rem;border-bottom:1px solid rgba(0,0,0,.05)}
+.ov h2{font-family:'Satisfy',cursive;font-size:1.8rem;text-align:center;color:var(--volcano);margin-bottom:1.5rem}
+.og{display:grid;grid-template-columns:repeat(auto-fit,minmax(125px,1fr));gap:.6rem;max-width:950px;margin:0 auto}
+.od{background:var(--cream);border-radius:12px;padding:.65rem;text-align:center;font-size:.72rem;line-height:1.4;border:1px solid rgba(0,0,0,.04)}
+.od strong{display:block;font-size:.78rem;color:var(--volcano);margin-bottom:.1rem}
+.od em{font-style:normal;font-size:.66rem;color:#aaa;display:block;margin-bottom:.2rem}
+.sw{max-width:900px;margin:0 auto;padding:0 1.5rem}
+.ds{padding:3.5rem 0 2rem}
+.dh{display:flex;align-items:center;gap:1rem;margin-bottom:2.5rem}
+.badge{width:72px;height:72px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-direction:column;color:#fff;font-weight:700;font-size:.6rem;text-transform:uppercase;letter-spacing:1px;box-shadow:0 4px 15px rgba(0,0,0,.15);flex-shrink:0}
+.badge span{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:700;line-height:1}
+.badge small{font-size:.55rem;opacity:.8;margin-top:1px}
+.dtitle{font-family:'Playfair Display',serif;font-size:clamp(1.4rem,4vw,1.9rem);color:var(--dark);line-height:1.2}
+.dsub{font-size:.88rem;color:var(--coral);font-weight:500;margin-top:.15rem}
+.ddate{font-size:.75rem;color:#aaa;font-weight:600;letter-spacing:.5px;margin-top:.1rem}
+.c{background:#fff;border-radius:20px;padding:1.8rem;margin-bottom:1.4rem;box-shadow:0 2px 20px rgba(0,0,0,.06);border:1px solid rgba(0,0,0,.04);transition:transform .3s,box-shadow .3s;position:relative;overflow:hidden}
+.c:hover{transform:translateY(-3px);box-shadow:0 8px 30px rgba(0,0,0,.1)}
+.em{font-size:2rem;margin-bottom:.7rem;display:block}
+.c h3{font-family:'Playfair Display',serif;font-size:1.25rem;margin-bottom:.5rem}
+.c p{font-size:.93rem;line-height:1.7;color:#665D59}
+.tag{display:inline-block;padding:3px 11px;border-radius:20px;font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:1px;margin-top:.7rem;margin-right:3px}
+.tf{background:var(--cl);color:var(--volcano)}.ta{background:var(--sl);color:#4A6E4A}.tc{background:var(--lav);color:#6B5B8D}.tv{background:var(--ol);color:#3D7A96}.tn{background:var(--pink);color:#9B5A6A}.tb{background:var(--sand);color:var(--volcano)}.tfa{background:#FFF3CD;color:#8B6914}.tk{background:#E8D5C4;color:#6B4226}
+.acc{position:absolute;top:0;left:0;width:5px;height:100%}
+.fr{background:linear-gradient(135deg,var(--sand),var(--cream));border-radius:16px;padding:1.1rem 1.4rem;margin-top:1rem;border-left:4px solid var(--coral)}
+.fr h4{font-family:'Satisfy',cursive;font-size:1.15rem;color:var(--volcano);margin-bottom:.25rem}
+.fr p{font-size:.86rem;color:#665D59;line-height:1.6}
+.div{text-align:center;padding:1.8rem 0;font-size:1.3rem;opacity:.3;letter-spacing:10px}
+.tip{background:linear-gradient(135deg,var(--sl),#E8F5E8);border-radius:16px;padding:1.1rem 1.4rem;margin-bottom:1.4rem;border-left:4px solid var(--sage)}
+.tip h4{font-weight:700;font-size:.82rem;text-transform:uppercase;letter-spacing:1px;color:#4A6E4A;margin-bottom:.25rem}
+.tip p{font-size:.86rem;color:#3D5C3D;line-height:1.6}
+.conn{display:flex;align-items:center;justify-content:center;gap:.5rem;padding:.4rem 0;color:var(--cl);font-size:.78rem}
+.conn .ln{width:28px;height:2px;background:var(--cl);border-radius:1px}
+.hs{background:linear-gradient(135deg,var(--sand) 0%,var(--pink) 50%,var(--lav) 100%);padding:4rem 0;margin-top:2rem}
+.hs h2{font-family:'Satisfy',cursive;font-size:clamp(1.8rem,5vw,2.8rem);text-align:center;color:var(--dark);margin-bottom:.4rem}
+.hs-sub{text-align:center;font-style:italic;color:#665D59;margin-bottom:2rem;font-size:.95rem}
+.hg{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.4rem}
+.hc{background:rgba(255,255,255,.8);backdrop-filter:blur(10px);border-radius:16px;padding:1.4rem;text-align:center}
+.hc .em{font-size:2.5rem}
+.hc h3{font-family:'Playfair Display',serif;font-size:1.05rem;margin-bottom:.4rem}
+.hc p{font-size:.86rem;line-height:1.6;color:#665D59}
+.pg{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.8rem;margin-top:1.2rem}
+.pi{background:#fff;border-radius:12px;padding:.9rem;text-align:center;font-size:.85rem;box-shadow:0 2px 10px rgba(0,0,0,.05)}
+.pi span{display:block;font-size:1.7rem;margin-bottom:.2rem}
+footer{background:var(--dark);color:rgba(255,255,255,.7);text-align:center;padding:3rem 1.5rem}
+footer .fl{font-family:'Playfair Display',serif;font-size:1.1rem;color:rgba(255,255,255,.4);letter-spacing:6px;margin-bottom:.8rem;text-transform:uppercase}
+footer .fl .h{color:var(--pink)}
+footer h3{font-family:'Satisfy',cursive;font-size:2rem;color:var(--cl);margin-bottom:.5rem}
+footer p{font-size:.88rem;line-height:1.7;max-width:500px;margin:0 auto}
+@media(max-width:600px){.badge{width:58px;height:58px;font-size:.55rem}.badge span{font-size:1.1rem}.c{padding:1.3rem}.hg,.pg{grid-template-columns:1fr}.og{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hd">🌋</div><div class="hd">🌺</div><div class="hd">🐢</div><div class="hd">🌊</div><div class="hd">☕</div><div class="hd">🦜</div>
+  <div class="logo">R<span class="h">♥</span>P<span class="h">♥</span>R<span class="h">♥</span>P</div>
+  <h1>El Salvador, Mi Amor</h1>
+  <p class="hero-sub">10 Days of Magic</p>
+  <p class="hero-dates">April 3 – 13, 2026 &nbsp;·&nbsp; Land of Volcanoes 🌋</p>
+  <p class="hero-names">Rafa & Rebe</p>
+  <div class="scroll-hint">↓</div>
+</section>
+
+<div class="qi">
+  <div><span>🏨</span><strong>Hotel</strong><small>InterContinental, Metrocentro</small></div>
+  <div><span>🚗</span><strong>Rental Car</strong><small>Thu Apr 3 night → Mon Apr 7 8pm</small></div>
+  <div><span>👨‍👩‍👦</span><strong>Tío Arrives</strong><small>Sun Apr 6 afternoon</small></div>
+  <div><span>✈️</span><strong>Fly Home</strong><small>Sun Apr 13 · 11pm</small></div>
+  <div><span>💵</span><strong>Currency</strong><small>USD (+ Bitcoin!)</small></div>
+</div>
+
+<div class="ov">
+  <h2>The Game Plan ✨</h2>
+  <div class="og">
+    <div class="od"><strong>Thu Apr 3</strong><em>Night</em>Arrive 11pm ✈️<br>Rental car + hotel</div>
+    <div class="od"><strong>Fri Apr 4</strong><em>Day 1</em>Centro Histórico<br>Casa Bou ☕ · Los Planes<br>Puerta del Diablo<br>Rainbow Slide 🎢<br>Date night 🌙</div>
+    <div class="od"><strong>Sat Apr 5</strong><em>Day 2</em>El Tunco 🏖️<br>Plaza La Libertad<br>Sunset + nightlife</div>
+    <div class="od"><strong>Sun Apr 6</strong><em>Day 3</em>Flexible morning<br>Tío arrives PM 👨‍👩‍👦<br>Hang with family</div>
+    <div class="od"><strong>Mon Apr 7</strong><em>Day 4</em>Volcán Santa Ana 🌋<br>Lago Coatepeque 💎<br>Joya de Cerén<br>Return car 8pm ✓</div>
+    <div class="od"><strong>Tue Apr 8</strong><em>Day 5</em>Uncle drives east 🚗<br>San Pedro / San Miguel<br>Family time</div>
+    <div class="od"><strong>Wed Apr 9</strong><em>Day 6</em>San Miguel city 🏙️<br>Cuevas de Moncagua<br>Mercado Central</div>
+    <div class="od"><strong>Thu Apr 10</strong><em>Day 7</em>Beaches 🏖️<br>El Cuco · Las Flores<br>La Ventana 🪟</div>
+    <div class="od"><strong>Fri Apr 11</strong><em>Day 8</em>Volcán Conchagua 🌋<br>Coyolito · La Unión<br>Dad's roots 💛</div>
+    <div class="od"><strong>Sat Apr 12</strong><em>Day 9</em>Laguna Alegría 🌿<br>Agua Fría<br>Mom's roots 💛</div>
+    <div class="od"><strong>Sun Apr 13</strong><em>Day 10</em>Morning with fam<br>Taxi to airport 🚕<br>11pm flight ✈️</div>
+  </div>
+</div>
+
+<div class="sw">
+
+<!-- THU APR 3 -->
+<section class="ds">
+  <div class="dh">
+    <div class="badge" style="background:linear-gradient(135deg,var(--dark),#5A4D49)"><span>THU</span><small>APR 3</small></div>
+    <div><div class="dtitle">Arrival Night</div><div class="dsub">Landing at 11pm · pick up car · hotel</div><div class="ddate">Thursday, April 3</div></div>
+  </div>
+  <div class="c"><div class="acc" style="background:var(--dark)"></div><span class="em">✈️</span>
+    <h3>Bienvenidos a Cuscatlán!</h3>
+    <p>Land at Monseñor Óscar Arnulfo Romero International Airport (SAL) around 11pm. Grab the rental car and drive ~30 min to the InterContinental in Metrocentro. Tonight is rest — big adventures start mañana. Rebe, welcome to Rafa's homeland! 🌋</p>
+  </div>
+  <div class="tip"><h4>💡 Quick Tips</h4><p>Download Waze/Google Maps offline before landing. Highway from airport is well-lit and easy at night. Keep small bills ($1s and $5s) handy for pupusas, tips, and street vendors.</p></div>
+</section>
+<div class="div">🌺 · 🌺 · 🌺</div>
+
+<!-- FRI APR 4 -->
+<section class="ds">
+  <div class="dh">
+    <div class="badge" style="background:linear-gradient(135deg,var(--coral),var(--volcano))"><span>FRI</span><small>APR 4</small></div>
+    <div><div class="dtitle">San Salvador Highlights</div><div class="dsub">Centro Histórico · Casa Bou · Los Planes · Rainbow Slide · Date Night</div><div class="ddate">Friday, April 4</div></div>
+  </div>
+
+  <div class="c"><div class="acc" style="background:var(--coral)"></div><span class="em">🏛️</span>
+    <h3>Morning: Centro Histórico</h3>
+    <p>Start at the heart of San Salvador. Walk <strong>Plaza Libertad</strong> with its colonial architecture. Visit <strong>Iglesia El Rosario</strong> — looks like a concrete bunker outside, but inside rainbow light pours through stunning stained glass. One of the most beautiful churches in Central America. Walk past the <strong>Catedral Metropolitana</strong> and <strong>Palacio Nacional</strong>. Rebe is going to love this.</p>
+    <span class="tag tc">culture</span>
+  </div>
+
+  <div class="c"><div class="acc" style="background:var(--gold)"></div><span class="em">☕</span>
+    <h3>Mid-Morning: Starbucks Casa Bou</h3>
+    <p>THE Starbucks everyone talks about. On Calle Rubén Darío in the historic center, <strong>Casa Bou</strong> is inside a restored 1920s Art Nouveau building. Stained glass by Salvadoran artist Margarita Llort tells the coffee story from seed to cup. Murals by Darwin Flores and Madjer Linares cover the walls. First flagship Starbucks community coffeehouse in all of Latin America. Try the <strong>Pacamara coffee</strong> — grown on volcanic soil right here in El Salvador.</p>
+    <span class="tag tc">culture</span><span class="tag tk">coffee</span>
+  </div>
+
+  <div class="conn"><div class="ln"></div>🚗 ~30 min uphill<div class="ln"></div></div>
+
+  <div class="c"><div class="acc" style="background:var(--sage)"></div><span class="em">🏔️</span>
+    <h3>Afternoon: Los Planes de Renderos & Puerta del Diablo</h3>
+    <p>Drive up to <strong>Los Planes de Renderos</strong>, a.k.a. "Pupusa Mountain." Cool breezy hilltop famous for dozens of pupuserías with insane city views. Continue to <strong>Puerta del Diablo</strong> (Devil's Door) — three massive rock formations at 1,131m elevation. See Lago de Ilopango, Volcán San Vicente, and the Pacific Ocean. Explore <strong>La Cueva del Diablo</strong> caves near the formations. Views are unreal.</p>
+    <div class="fr"><h4>🍽️ Eat Here!</h4><p><strong>El Ático Pupusería</strong> — Los Planes. Pupusas $1-2 each. Try garlic, squash, chicharrón with that panoramic view. Also <strong>Casa Campo El Mirador</strong> for the biggest pupusa in El Salvador. Becky's first pupusa moment — make it count! 🫓</p></div>
+    <span class="tag tv">epic views</span><span class="tag tf">pupusas</span>
+  </div>
+
+  <div class="c"><div class="acc" style="background:var(--coral)"></div><span class="em">🎢</span>
+    <h3>Late Afternoon: Rainbow Slide (Tobogán Arcoíris)</h3>
+    <p>Stop at <strong>Picnic Steak House</strong> on the road to El Boquerón. The famous <strong>Rainbow Slide</strong> — multi-colored giant slide built into the mountainside with San Salvador views. 60 seconds of pure adrenaline! Restaurant has gorgeous sunset views too. Min age 12, sign a waiver, totally safe and fun.</p>
+    <span class="tag ta">adventure</span>
+  </div>
+
+  <div class="c"><div class="acc" style="background:var(--lav)"></div><span class="em">🌙</span>
+    <h3>Evening: RPRP Date Night</h3>
+    <p>Clean up at the hotel and treat yourselves. San Salvador's food scene has exploded.</p>
+    <div class="fr"><h4>🍽️ Date Night Picks</h4>
+      <p><strong>El Xolo</strong> — Inside MUNA (anthropology museum). Reinvented Salvadoran cuisine. Native corn, chiltepe sauce, cacao desserts. Recognized by Latin America's 50 Best.<br><br>
+      <strong>Brutto</strong> — Contemporary Asian fusion, rooftop vibes, city views. Truffle butter bread is a must.<br><br>
+      <strong>La Oveja Negra</strong> — Cozy, mysterious ambiance. Creative flavors. Perfect for romance.<br><br>
+      <strong>Donde Mikel</strong> — Basque cuisine. Owner Mikel recommends dishes personally. Incredible steak + seafood.</p>
+    </div>
+    <span class="tag tf">dinner</span><span class="tag tn">date night</span>
+  </div>
+</section>
+<div class="div">🌺 · 🌺 · 🌺</div>
+
+<!-- SAT APR 5 -->
+<section class="ds">
+  <div class="dh">
+    <div class="badge" style="background:linear-gradient(135deg,var(--ocean),#4A8BA6)"><span>SAT</span><small>APR 5</small></div>
+    <div><div class="dtitle">Beach Day & Coastal Vibes</div><div class="dsub">El Tunco · Plaza La Libertad · Sunset on the Pacific</div><div class="ddate">Saturday, April 5</div></div>
+  </div>
+
+  <div class="c"><div class="acc" style="background:var(--ocean)"></div><span class="em">🏖️</span>
+    <h3>Morning: El Tunco</h3>
+    <p>Drive west (~45 min) to <strong>Playa El Tunco</strong>, El Salvador's most famous beach town. Named after a pig-shaped rock offshore. Colorful hostels, surf shops, beachfront restaurants, black volcanic sand. Walk the main strip, breakfast beachside. Water shoes are smart — can be rocky.</p>
+    <span class="tag tb">beach</span>
+  </div>
+
+  <div class="c"><div class="acc" style="background:var(--sage)"></div><span class="em">🏄</span>
+    <h3>Midday: Surf, Stroll & Seafood</h3>
+    <p>Watch surfers, explore tide pools, photos with the iconic Tunco rock. Walk to <strong>Playa El Sunzal</strong> next door for quieter vibes. Fresh seafood shacks right on the sand.</p>
+    <div class="fr"><h4>🍽️ Eat Here!</h4><p>Fresh ceviche + fried fish at any beachfront comedor. <strong>BocaBoca</strong> or <strong>Ecobar</strong> for nicer sit-down with ocean views. Ceviche de camarón + cold Pilsener = RPRP heaven. 🍺</p></div>
+    <span class="tag tb">surf</span><span class="tag tf">seafood</span>
+  </div>
+
+  <div class="conn"><div class="ln"></div>🚗 ~15 min<div class="ln"></div></div>
+
+  <div class="c"><div class="acc" style="background:var(--gold)"></div><span class="em">⚓</span>
+    <h3>Afternoon: Plaza La Libertad</h3>
+    <p>Drive to <strong>Puerto de La Libertad</strong>. Renovated <strong>Malecón</strong> (boardwalk) is perfect for a couples stroll. Browse the artisan market, check the fishing pier, and hit the legendary <strong>fish market</strong> — pick your fish and they cook it right there.</p>
+    <div class="fr"><h4>🍽️ Eat Here!</h4><p><strong>Fish market</strong> — pick your whole fish, shrimp, or lobster. They grill it with sides. Ultra fresh. Also try <strong>mariscadas</strong> (seafood soups) along the malecón.</p></div>
+    <span class="tag tf">food</span><span class="tag tv">views</span>
+  </div>
+
+  <div class="c"><div class="acc" style="background:var(--coral)"></div><span class="em">🌅</span>
+    <h3>Evening: Sunset at El Tunco</h3>
+    <p>Back to El Tunco for sunset — famous for the most beautiful sunsets in Central America. Black sand, crashing waves, fiery sky. Stay for dinner and drinks at beach bars. Live music, fire dancers, fun backpacker energy. Rebe's first El Salvador sunset is going to hit different. 🌅</p>
+    <span class="tag tn">nightlife</span><span class="tag tb">sunset</span>
+  </div>
+</section>
+<div class="div">🌺 · 🌺 · 🌺</div>
+
+<!-- SUN APR 6 -->
+<section class="ds">
+  <div class="dh">
+    <div class="badge" style="background:linear-gradient(135deg,var(--gold),#B8912E)"><span>SUN</span><small>APR 6</small></div>
+    <div><div class="dtitle">Flex Day + Tío Arrives!</div><div class="dsub">Flexible AM · Uncle arrives afternoon · Family hangs</div><div class="ddate">Sunday, April 6</div></div>
+  </div>
+
+  <div class="c"><div class="acc" style="background:var(--gold)"></div><span class="em">☀️</span>
+    <h3>Morning: Keep It Flexible</h3>
+    <p>Sleep in after last night's beach vibes, or explore something chill in San Salvador. Options: <strong>El Boquerón National Park</strong> (San Salvador volcano crater, 20 min from Picnic Steak House), <strong>Mercado de Artesanías</strong> for souvenirs, <strong>MARTE</strong> (Art Museum), or <strong>Maria Bonita Brunch & Drunch</strong> for a nice brunch with city + volcano views. Let uncle decide the vibe when he lands!</p>
+    <span class="tag tc">explore</span>
+  </div>
+
+  <div class="c"><div class="acc" style="background:var(--gold)"></div><span class="em">👨‍👩‍👦</span>
+    <h3>Afternoon: Tío Arrives!</h3>
+    <p>Uncle arrives in San Salvador! Link up, catch up, let him take the lead. Maybe dinner somewhere nice, cruise the city, or just chill. Rebe meets more of the crew! He's got his car so you're set for logistics going forward.</p>
+    <span class="tag tfa">family time</span>
+  </div>
+</section>
+<div class="div">🌺 · 🌺 · 🌺</div>
+
+<!-- MON APR 7 -->
+<section class="ds">
+  <div class="dh">
+    <div class="badge" style="background:linear-gradient(135deg,var(--sage),#5A8A5A)"><span>MON</span><small>APR 7</small></div>
+    <div><div class="dtitle">Volcán Santa Ana & Lago de Coatepeque</div><div class="dsub">Bucket list hike · Crater lake · Mayan ruins · Return car to airport 8pm</div><div class="ddate">Monday, April 7</div></div>
+  </div>
+
+  <div class="tip"><h4>⏰ Early Start!</h4><p>Leave by 5:30-6:00am to reach Cerro Verde National Park early. Hike ~2 hours up. Bring water, sunscreen, hat, snacks, hiking shoes. Trail can be muddy. Return rental car to airport by 8pm — uncle picks you up there and drives you back to the hotel!</p></div>
+
+  <div class="c"><div class="acc" style="background:var(--sage)"></div><span class="em">🌋</span>
+    <h3>Morning: Volcán Santa Ana (Ilamatepec)</h3>
+    <p>Tallest volcano in El Salvador at 2,381m. Hike through cloud forest ~2 hours and you're rewarded with one of Central America's most stunning views — a brilliant <strong>blue-green crater lake</strong> inside the volcanic crater. Moderate difficulty. #1 thing to do in El Salvador. Rebe, this is going to blow your mind. 🤯</p>
+    <span class="tag ta">adventure</span><span class="tag tv">bucket list</span>
+  </div>
+
+  <div class="conn"><div class="ln"></div>🚗 ~30 min downhill<div class="ln"></div></div>
+
+  <div class="c"><div class="acc" style="background:var(--ocean)"></div><span class="em">💎</span>
+    <h3>Afternoon: Lago de Coatepeque</h3>
+    <p><strong>Lago de Coatepeque</strong> — turquoise volcanic crater lake formed 50,000+ years ago. Boat ride (~1 hour), jet ski, or relax lakeside with a cold drink. The water color is unreal.</p>
+    <div class="fr"><h4>🍽️ Eat Here!</h4><p><strong>La Pampa Restaurant</strong> — Argentinian place on a hill overlooking the lake. Stunning terrace, great steaks + wine. Perfect post-hike reward for RPRP. 🥩🍷</p></div>
+    <span class="tag tv">views</span><span class="tag tf">lunch</span>
+  </div>
+
+  <div class="c"><div class="acc" style="background:var(--lav)"></div><span class="em">🏛️</span>
+    <h3>Optional: Joya de Cerén (on the way back)</h3>
+    <p><strong>Joya de Cerén</strong> — UNESCO World Heritage Site. Mayan farming village buried by volcanic ash ~600 AD. "Pompeii of the Americas." Quick 30-45 min, right off the highway.</p>
+    <span class="tag tc">UNESCO</span>
+  </div>
+
+  <div class="c"><div class="acc" style="background:var(--dark)"></div><span class="em">🚗</span>
+    <h3>Evening: Return Car at Airport → Uncle Picks Up</h3>
+    <p>Drive the rental back to the airport by 8pm. Uncle meets you there and drives you back to the hotel. Tomorrow: road trip east!</p>
+    <span class="tag tfa">logistics</span>
+  </div>
+</section>
+<div class="div">🌺 · 🌺 · 🌺</div>
+
+<!-- TUE APR 8 -->
+<section class="ds">
+  <div class="dh">
+    <div class="badge" style="background:linear-gradient(135deg,var(--volcano),#A35738)"><span>TUE</span><small>APR 8</small></div>
+    <div><div class="dtitle">Road Trip East with Tío</div><div class="dsub">San Salvador → San Pedro near San Miguel</div><div class="ddate">Tuesday, April 8</div></div>
+  </div>
+  <div class="c"><div class="acc" style="background:var(--volcano)"></div><span class="em">🚗</span>
+    <h3>Drive East to Uncle's House</h3>
+    <p>Uncle drives everyone east to <strong>San Pedro near San Miguel</strong> (~2.5-3 hours on the Pan-American Highway). Settle into the family house — uncle and aunt are from the US and have a nice setup out there. Catch up, eat home-cooked food, let Rebe experience real family vibes. This is the good stuff.</p>
+    <span class="tag tfa">family time</span>
+  </div>
+  <div class="fr" style="margin-bottom:1.5rem"><h4>🍽️ Home Cooking > Everything</h4><p>Tía probably cooks better than any restaurant. Fresh tortillas a mano, casamiento, pollo guisado, sopa de res, tamales, platanitos fritos... Rebe is about to be spoiled. 🫶</p></div>
+</section>
+<div class="div">🌺 · 🌺 · 🌺</div>
+
+<!-- WED APR 9 -->
+<section class="ds">
+  <div class="dh">
+    <div class="badge" style="background:linear-gradient(135deg,var(--coral),#D4785E)"><span>WED</span><small>APR 9</small></div>
+    <div><div class="dtitle">San Miguel Exploration</div><div class="dsub">La Perla del Oriente · Mercado Central · Caves</div><div class="ddate">Wednesday, April 9</div></div>
+  </div>
+
+  <div class="c"><div class="acc" style="background:var(--coral)"></div><span class="em">🏙️</span>
+    <h3>San Miguel City</h3>
+    <p>Explore <strong>"La Perla del Oriente"</strong> — El Salvador's second city. Visit the <strong>Catedral Basílica Nuestra Señora de la Paz</strong>, get lost in the massive <strong>Mercado Central</strong> (biggest market in El Salvador — save your parking spot!), and check out <strong>Teatro Nacional Francisco Gavidia</strong>. The central square energy is infectious.</p>
+    <span class="tag tc">culture</span>
+  </div>
+
+  <div class="c"><div class="acc" style="background:var(--ocean)"></div><span class="em">💧</span>
+    <h3>Afternoon: Cuevas de Moncagua</h3>
+    <p>Just 10 minutes from San Miguel! Natural caves with crystal-clear water — locals turned it into a swimming area. Entrance ~$2. Refreshing escape from the heat. Super local vibes.</p>
+    <span class="tag ta">adventure</span>
+  </div>
+
+  <div class="fr" style="margin-bottom:1.5rem"><h4>🍽️ Must Try!</h4><p><strong>Panes Migueleños</strong> — San Miguel's signature food. Freshly baked bread stuffed with turkey, chicken, or pork, curtido, and special sauces. You cannot get these like this anywhere else. Ask uncle where the best ones are!</p></div>
+</section>
+<div class="div">🌺 · 🌺 · 🌺</div>
+
+<!-- THU APR 10 -->
+<section class="ds">
+  <div class="dh">
+    <div class="badge" style="background:linear-gradient(135deg,var(--ocean),#3D7A96)"><span>THU</span><small>APR 10</small></div>
+    <div><div class="dtitle">Eastern Beaches</div><div class="dsub">Playa El Cuco · Las Flores · La Ventana</div><div class="ddate">Thursday, April 10</div></div>
+  </div>
+
+  <div class="c"><div class="acc" style="background:var(--ocean)"></div><span class="em">🏖️</span>
+    <h3>Playa El Cuco</h3>
+    <p>Most popular beach near San Miguel, ~1.5-2 hours south. Way more laid-back than El Tunco. Great for swimming, beginner surfing, incredible fresh seafood on the sand. Where eastern Salvadorans go for beach days.</p>
+    <span class="tag tb">beach</span>
+  </div>
+
+  <div class="c"><div class="acc" style="background:var(--sage)"></div><span class="em">🌊</span>
+    <h3>Playa Las Flores</h3>
+    <p>Just down the road — quieter, more upscale, excellent surf breaks. Beautiful black sand, fewer crowds, nice boutique restaurants.</p>
+    <span class="tag tb">surf</span>
+  </div>
+
+  <div class="c"><div class="acc" style="background:var(--coral)"></div><span class="em">🪟</span>
+    <h3>Playa La Ventana — Hidden Gem!</h3>
+    <p>Near Las Flores — visit at <strong>low tide</strong> to access a cave that opens into a natural stone archway. Looks like a <strong>giant window into the Pacific</strong>. Incredibly romantic and photogenic. Rafa, this is THE spot to take Rebe for photos. 💕</p>
+    <span class="tag tv">hidden gem</span><span class="tag tn">romantic</span>
+  </div>
+</section>
+<div class="div">🌺 · 🌺 · 🌺</div>
+
+<!-- FRI APR 11 -->
+<section class="ds">
+  <div class="dh">
+    <div class="badge" style="background:linear-gradient(135deg,var(--volcano),var(--coral))"><span>FRI</span><small>APR 11</small></div>
+    <div><div class="dtitle">Volcán Conchagua & Dad's Roots</div><div class="dsub">See 3 countries · Coyolito · La Unión · Golfo de Fonseca</div><div class="ddate">Friday, April 11</div></div>
+  </div>
+
+  <div class="c"><div class="acc" style="background:var(--volcano)"></div><span class="em">🌋</span>
+    <h3>Volcán Conchagua</h3>
+    <p>~2 hours from San Miguel near the southern tip of El Salvador. At the top: <strong>three countries at once</strong> — El Salvador, Honduras, Nicaragua. The scattered islands in the <strong>Golfo de Fonseca</strong> with turquoise water are stunning. Right near your dad's hometown!</p>
+    <span class="tag tv">3 countries!</span><span class="tag ta">hike</span>
+  </div>
+
+  <div class="c"><div class="acc" style="background:var(--gold)"></div><span class="em">🐚</span>
+    <h3>Coyolito & La Unión</h3>
+    <p>Visit <strong>Coyolito</strong> — Rafa's dad's hometown in La Unión. Walk where he grew up, see the Gulf of Fonseca, show Rebe where your roots are. <strong>La Unión</strong> is the nearby port city with laid-back coastal charm. Fresh seafood and island views. This one's going to be meaningful. 💛</p>
+    <span class="tag tfa">dad's roots</span>
+  </div>
+</section>
+<div class="div">🌺 · 🌺 · 🌺</div>
+
+<!-- SAT APR 12 -->
+<section class="ds">
+  <div class="dh">
+    <div class="badge" style="background:linear-gradient(135deg,var(--sage),#6B9E6B)"><span>SAT</span><small>APR 12</small></div>
+    <div><div class="dtitle">Laguna de Alegría & Mom's Roots</div><div class="dsub">Crater lake · Mountain town · Agua Fría · Last family night</div><div class="ddate">Saturday, April 12</div></div>
+  </div>
+
+  <div class="c"><div class="acc" style="background:var(--sage)"></div><span class="em">🌿</span>
+    <h3>Morning: Laguna de Alegría</h3>
+    <p>~1 hour north of San Miguel in charming <strong>Alegría</strong>. Volcanic crater lake with bright <strong>green-blue waters</strong> surrounded by lush vegetation. Town is adorable — cool climate, flower nurseries, colorful streets. Totally different from the hot lowlands. Great half-day trip.</p>
+    <span class="tag tv">views</span><span class="tag ta">nature</span>
+  </div>
+
+  <div class="c"><div class="acc" style="background:var(--gold)"></div><span class="em">💧</span>
+    <h3>Afternoon: Visit Agua Fría</h3>
+    <p>Take Rebe to <strong>Agua Fría</strong> — Rafa's mom's hometown. Walk the quiet countryside, say hi to family, and let her see the real rural El Salvador that shaped your family. This is the kind of moment that makes a trip unforgettable. 💛</p>
+    <span class="tag tfa">mom's roots</span>
+  </div>
+
+  <div class="c"><div class="acc" style="background:var(--pink)"></div><span class="em">👨‍👩‍👧‍👦</span>
+    <h3>Evening: Last Night with Family</h3>
+    <p>Soak up the last evening with uncle, aunt, and the fam. Home-cooked dinner, stories, maybe some guaro or rum. Tomorrow you head home — make this one count. 🥂</p>
+    <span class="tag tfa">family</span>
+  </div>
+</section>
+<div class="div">🌺 · 🌺 · 🌺</div>
+
+<!-- SUN APR 13 -->
+<section class="ds">
+  <div class="dh">
+    <div class="badge" style="background:linear-gradient(135deg,var(--dark),#5A4D49)"><span>SUN</span><small>APR 13</small></div>
+    <div><div class="dtitle">Hasta Pronto, El Salvador</div><div class="dsub">Last morning · Taxi to airport · 11pm flight</div><div class="ddate">Sunday, April 13</div></div>
+  </div>
+
+  <div class="c"><div class="acc" style="background:var(--dark)"></div><span class="em">🥲</span>
+    <h3>Last Day</h3>
+    <p>Spend the morning with family. Soak in every last minute. Pack up, say goodbyes (there WILL be tears — Salvadoran goodbyes are never quick). Taxi to the airport for the 11pm flight. You'll be back — El Salvador has a way of pulling you in. Rebe is officially familia now. 💕</p>
+    <span class="tag tfa">hasta pronto</span>
+  </div>
+
+  <div class="tip"><h4>🚕 Airport Logistics</h4><p>San Miguel to the airport is ~2-2.5 hours. Arrange the taxi in advance — uncle can help. Leave by 7:30-8pm latest. Airport has limited food/shops late at night, so eat before you go!</p></div>
+</section>
+
+</div>
+
+<!-- HERITAGE -->
+<section class="hs">
+  <div class="sw">
+    <h2>Rafa's Roots Run Deep Here 💛</h2>
+    <p class="hs-sub">Mom is from Agua Fría · Dad is from Coyolito, La Unión</p>
+    <div class="hg">
+      <div class="hc"><span class="em">💧</span><h3>Agua Fría</h3><p>Where Rafa's mom is from. Quiet countryside, warm people. Bring Rebe — she'll understand you better after seeing this place.</p></div>
+      <div class="hc"><span class="em">🐚</span><h3>Coyolito, La Unión</h3><p>Where Rafa's dad grew up. Near the Gulf of Fonseca where three countries' waters meet. Meaningful and beautiful.</p></div>
+      <div class="hc"><span class="em">🏠</span><h3>San Pedro (Tío's House)</h3><p>Home base in the east. Uncle and aunt's place near San Miguel. Family, comfort, home cooking, and launching pad for eastern adventures.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PACKING -->
+<div class="sw">
+  <section class="ds">
+    <div class="dh">
+      <div class="badge" style="background:linear-gradient(135deg,var(--lav),#9B8ABD)"><span>📋</span></div>
+      <div><div class="dtitle">Don't Forget to Pack!</div><div class="dsub">Essentials for Rafa & Rebe</div></div>
+    </div>
+    <div class="pg">
+      <div class="pi"><span>🥾</span>Hiking shoes</div>
+      <div class="pi"><span>🧴</span>Sunscreen SPF 50+</div>
+      <div class="pi"><span>🧢</span>Hat & sunglasses</div>
+      <div class="pi"><span>👙</span>Swimsuit(s)</div>
+      <div class="pi"><span>💊</span>Bug spray</div>
+      <div class="pi"><span>🩴</span>Water shoes</div>
+      <div class="pi"><span>📷</span>Camera / GoPro</div>
+      <div class="pi"><span>🧥</span>Light jacket</div>
+      <div class="pi"><span>💧</span>Water bottle</div>
+      <div class="pi"><span>🔌</span>Portable charger</div>
+      <div class="pi"><span>🌂</span>Rain poncho</div>
+      <div class="pi"><span>💵</span>Cash ($1s & $5s)</div>
+    </div>
+  </section>
+
+  <section class="ds">
+    <div class="tip"><h4>🇸🇻 Good to Know</h4>
+      <p><strong>Driving:</strong> Roads generally good. Night driving fine on highways, cautious on rural roads. Gas is cheap and plentiful.<br><br>
+      <strong>Safety:</strong> El Salvador has improved dramatically. Tourist areas are very safe. Common sense — don't flash expensive stuff, lock car doors.<br><br>
+      <strong>Tipping:</strong> 10% at restaurants. Pupuserías and street food don't require tips.<br><br>
+      <strong>For Rebe:</strong> She's going to love it. Salvadorans are incredibly warm — especially when they find out Rafa has roots there. Expect to be fed constantly. 🫶</p>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div class="fl">R<span class="h">♥</span>P<span class="h">♥</span>R<span class="h">♥</span>P</div>
+  <h3>Que la pasen increíble 💕</h3>
+  <p>Rafa & Rebe take El Salvador · April 3–13, 2026<br>Show her where you come from — she's going to fall in love with it. 🌋🌺</p>
+  <br><p style="font-size:.7rem;opacity:.4">Made with love · RPRP · El Salvador 2026</p>
+</footer>
+
+</body>
+</html>
